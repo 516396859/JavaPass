@@ -1,6 +1,6 @@
 <div align=center>
-<img src=https://github.com/516396859/JavaPass/assets/43902436/510615c3-bdb4-4b15-9bb7-3bf48f39aae0 width=30% />
-</div>
+<img src=https://github.com/516396859/JavaPass/assets/43902436/dd8bd56b-523c-46b1-83dd-670d4735fbb0 width=30% />
+</div> 
 
 #### 什么是`JavaPass`？
 
