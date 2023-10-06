@@ -1,7 +1,7 @@
 <div align=center>
 <img src=https://github.com/516396859/JavaPass/assets/43902436/dd8bd56b-523c-46b1-83dd-670d4735fbb0 width=30% />
-</div> 
-<center><font size="36">JavaPass<font></center>
+    <center><font size="36">JavaPass<font></center>
+</div>  
 
 
 #### 什么是`JavaPass`？
