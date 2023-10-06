@@ -1,7 +1,5 @@
 
-<img src="https://github.com/516396859/JavaPass/assets/43902436/af3afcab-a661-48a2-8f5e-e9af6780ae6f" alt="jp" style="zoom: 15%;" />
-
-<center><font size="36">JavaPass<font></center>
+![jp - 副本](https://github.com/516396859/JavaPass/assets/43902436/510615c3-bdb4-4b15-9bb7-3bf48f39aae0)
 
 #### 什么是`JavaPass`？
 
