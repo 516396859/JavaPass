@@ -21,15 +21,17 @@
 
 `JavaPass`是通过`VuePress`项目构建知识库，它通过解析`Markdown`文件生成静态页面，因此它是非常便于维护的。目录结构如下所示：
 
-![image-20231006154515869](C:\Users\cheney\AppData\Roaming\Typora\typora-user-images\image-20231006154515869.png)
+![image-20231006154515869](https://github.com/516396859/JavaPass/assets/43902436/0a61cd4a-18ed-41ae-973a-aa8e5c8ab8a5)
+
 
 首先你需要切换`dev`分支，然后找到需要修改的文档，例如我找`Java`基础章节的基础概念的篇章就是上图的`BasicConcepts.md`文档，你可以在线编辑它然后提交即可，如下图所示：
 
-![image-20231006154820215](C:\Users\cheney\AppData\Roaming\Typora\typora-user-images\image-20231006154820215.png)
+![image-20231006154820215](https://github.com/516396859/JavaPass/assets/43902436/05a23a96-e83c-4867-82fa-844996db8974)
+
 
 点击右上角红色方框中的编辑按钮，编辑后提交我们就能看见你的提交记录，我们会及时将你的更新合并进master主线分支中，然后及时更新在官网，最后我们会将你加入到贡献者名单并在官网此题后面显示你的`github`名字。最后我需要和您讲清楚如何编辑文档，以官网第一题为例，如下我们将一个题目分为五部分，分别是：题目、标记、简答、题评、详细回答 五部分。
 
-![image-20231006155345602](C:\Users\cheney\AppData\Roaming\Typora\typora-user-images\image-20231006155345602.png)
+
 
 五部分内容你都可以修改，下面给出上述第一题`markdown`的修改格式：
 
