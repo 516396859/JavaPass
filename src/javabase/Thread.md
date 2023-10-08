@@ -1,5 +1,5 @@
 ---
-title: 基本概念
+title: 多线程与线程池
 icon: file
 order: 6
 author: Ms.Cheney
@@ -12,8 +12,6 @@ copyright: false
 footer: 赣ICP备2023007682 | 使用 <a href="https://theme-hope.vuejs.press/zh/" target="_blank">VuePress Theme Hope</a> 主题 | MIT 协议, 版权所有 © 2023-Cheney,2018-present Mr.Hope
 # 版权声明：本文为JavaPass博主「javapass.cn」的原创文章，遵循CC 4.0 BY-SA版权协议，转载请附上原文出处链接及本声明。
 ---
-
-
 
 
 ::: tip 
