@@ -1,7 +1,7 @@
 ---
-title: 多线程与并发
+title: 并发与锁
 icon: file
-order: 6
+order: 2
 author: Ms.Cheney
 date: 2023-10-05
 category:
