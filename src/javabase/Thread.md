@@ -292,7 +292,11 @@ footer: 赣ICP备2023007682 | 使用 <a href="https://theme-hope.vuejs.press/zh/
 
 **题评：** 无
 ::: details 点击查看详细答案
-待补充
+在上下文切换过程中，CPU会停止处理当前运行的程序，并保存当前程序运行的具体位置页码以便之后继续运行。上下文切换过程中的“页码”信息是保存在进程控制块（PCB）中的。PCB还经常被称作“切换桢”（switchframe）。“页码”信息会一直保存到CPU的内存中，直到他们被再次使用。上下文切换是存储和恢复CPU状态的过程，它使得线程执行能够从中断点恢复执行。上下文切换是多任务操作系统和多线程环境的基本特征。
+-  主动让出 CPU，比如调用了 sleep(), wait() 等。 
+-  时间片用完，因为操作系统要防止一个线程或者进程长时间占用 CPU 导致其他线程或者进程饿死。 
+-  调用了阻塞类型的系统中断，比如请求 IO，线程被阻塞。 
+线程切换意味着需要保存当前线程的上下文，留待线程下次占用 CPU 的时候恢复现场。并加载下一个将要占用 CPU 的线程上下文。这就是所谓的 上下文切换。
 :::
 
 ### 32. `Java`中的`ReadWriteLock`是什么？:star::star::star::two:
@@ -325,7 +329,30 @@ footer: 赣ICP备2023007682 | 使用 <a href="https://theme-hope.vuejs.press/zh/
 
 **题评：** 经常考！
 ::: details 点击查看详细答案
-待补充
+```java
+public class Singleton {
+    private volatile static Singleton uniqueInstance;
+    private Singleton() {
+    }
+    public  static Singleton getUniqueInstance() {
+       //先判断对象是否已经实例过，没有实例化过才进入加锁代码
+        if (uniqueInstance == null) {
+            //类对象加锁
+            synchronized (Singleton.class) {
+                if (uniqueInstance == null) {
+                    uniqueInstance = new Singleton();
+                }
+            }
+        }
+        return uniqueInstance;
+    }
+}
+```
+uniqueInstance 采用 volatile 关键字修饰也是很有必要的， uniqueInstance = new Singleton(); 这段代码其实是分为三步执行：
+1. 为 uniqueInstance 分配内存空间
+2. 初始化 uniqueInstance
+3. 将 uniqueInstance 指向分配的内存地址
+但是由于 JVM 具有指令重排的特性，执行顺序有可能变成 1->3->2。指令重排在单线程环境下不会出现问题，但是在多线程环境下会导致一个线程获得还没有初始化的实例。例如，线程 T1 执行了 1 和 3，此时 T2 调用 getUniqueInstance() 后发现 uniqueInstance 不为空，因此返回 uniqueInstance，但此时 uniqueInstance 还未被初始化。
 :::
 
 ### 36. `Java`中什么是竞态条件？:star::star::star::three:
