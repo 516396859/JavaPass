@@ -8,9 +8,9 @@ icon: file  #lightbulb
 ### Java 基础
 
 - [MySQL基础](./BasicConcepts.md)
-- [MySQL索引](./DataType.md)
-- [MySQL日志](./JavaIO.md)
-- [MySQL优化](./Collections.md) 
+- [MySQL索引](./sql_index.md)
+- [MySQL日志](./sql_log.md)
+- [MySQL优化](./sql_log.md) 
 - [补充...]()
 
 
