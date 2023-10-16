@@ -11,10 +11,10 @@ export default sidebar({
       children: "structure",
     },
     {
-      text: "案例",
-      icon: "laptop-code",
-      prefix: "demo/",
-      link: "demo/",
+      text: "MySQL 数据库",
+      icon: "book",
+      prefix: "mysql/",
+      link: "mysql/",
       children: "structure",
     },
     {
