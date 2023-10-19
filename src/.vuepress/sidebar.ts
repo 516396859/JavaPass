@@ -4,17 +4,17 @@ export default sidebar({
   "/": [
     "",
     {
-      text: "Java 基础",
-      icon: "laptop-code",
-      prefix: "javabase/",
-      link: "javabase/",
-      children: "structure",
+      text: " 面试基础专项",
+      icon: "workingDirectory",
+      prefix: "basic/",
+      link: "basic/README",
+      children: "structure", 
     },
     {
-      text: "MySQL 数据库",
+      text: "面试进阶专项",
       icon: "book",
       prefix: "mysql/",
-      link: "mysql/",
+      link: "basic/mysql/README",
       children: "structure",
     },
     {

@@ -3,15 +3,23 @@ import navbar from "./navbar.js";
 import sidebar from "./sidebar.js";
 
 export default hopeTheme({
-  hostname: "https://vuepress-theme-hope-docs-demo.netlify.app",
+  hostname: "http://www.javapass.cn/",
 
   author: {
     name: "Mr.Cheney",
     url: "https://chenjie.blog.csdn.net/",
+    email:"cheney001@foxmail.com"
   },
 
-  iconAssets: "fontawesome-with-brands",
+  // iconAssets: "fontawesome-with-brands",
+  iconAssets: "iconfont",
 
+
+  // navbarAutoHide: true, //向下滚动隐藏导航栏
+
+  print:true, //打印
+
+  
   logo: "/logo.svg",
 
   repo: "https://github.com/516396859/JavaPass/tree/dev",

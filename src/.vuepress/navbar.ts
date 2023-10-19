@@ -6,19 +6,19 @@ export default navbar([
   {
     text: "八股速通",
     icon: "lightbulb",
-    prefix: "/guide/",
+    prefix: "/basic/",
     children: [
       {
-        text: "Bar",
-        icon: "lightbulb",
-        prefix: "bar/",
-        children: ["baz", { text: "Java后端", icon: "ellipsis", link: "" }],
+        text: "Java面试专项",
+        icon: "/java.svg",
+        prefix: "javabase/",
+        children: [{ text: "Java面试专项", icon: "java", link: "" }],
       },
       {
-        text: "Foo",
-        icon: "lightbulb",
-        prefix: "foo/",
-        children: ["ray", { text: "前端", icon: "ellipsis", link: "" }],
+        text: "MySQL面试专项",
+        icon: "book",
+        prefix: "mysql/",
+        children: [{ text: "MySQL面试专项", icon: "mysql", link: "" }],
       },
     ],
   },

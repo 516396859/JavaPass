@@ -1,6 +1,7 @@
 ---
-title: 知识结构
-icon: file  #lightbulb
+title: Java专项
+icon: java   #lightbulb /assets/icon/java.svg
+index: false
 ---
 
 ## 知识结构
@@ -14,8 +15,6 @@ icon: file  #lightbulb
 - [Java 进阶](./Advanced.md)
 - [多线程与并发](./ThreadAndConcurrency.md)
 - [补充...]()
-
-
 
 
 ### 常用 EMOJI 表情代码

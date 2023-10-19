@@ -1,19 +1,18 @@
 ---
-title: 知识结构
-icon: file  #lightbulb
+title: MySQL专项
+icon: mysql #file  #lightbulb
+index: false
 ---
 
 ## 知识结构
 
-### Java 基础
+### MySQL 基础
 
 - [MySQL基础](./BasicConcepts.md)
 - [MySQL索引](./sql_index.md)
 - [MySQL日志](./sql_log.md)
 - [MySQL优化](./sql_log.md) 
 - [补充...]()
-
-
 
 
 ### 常用 EMOJI 表情代码
