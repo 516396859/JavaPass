@@ -13,14 +13,6 @@ footer: 赣ICP备2023007682 | 使用 <a href="https://theme-hope.vuejs.press/zh/
 # 版权声明：本文为JavaPass博主「javapass.cn」的原创文章，遵循CC 4.0 BY-SA版权协议，转载请附上原文出处链接及本声明。
 --- 
 
-### 0. `Redis`的数据结构及其实现?:star::star::four:
-待补充。。。
-
-**题评：** 暂无
-::: details 点击查看详细答案
-待补充
-:::
-
 ### 1. `Redis`缓存的优点是什么？:star::star::star::two:
 存储在内存，速度快，避免全部访问数据库，多样的数据结构，提供集群和持久化功能保证高并发和高可用。
 
@@ -585,3 +577,10 @@ footer: 赣ICP备2023007682 | 使用 <a href="https://theme-hope.vuejs.press/zh/
 待补充
 :::
 
+### 63. `Redis`的数据结构及其实现?:star::star::four:
+待补充。。。
+
+**题评：** 暂无
+::: details 点击查看详细答案
+待补充
+:::

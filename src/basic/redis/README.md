@@ -1,6 +1,6 @@
 ---
 title: Redis 专项
-icon: redis #file  #lightbulb
+icon: storage #file  #lightbulb
 index: false
 ---
 
