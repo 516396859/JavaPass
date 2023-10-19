@@ -10,8 +10,8 @@ export default navbar([
     children: [
       {
         text: "Java面试专项",
-        icon: "/java.svg",
-        prefix: "javabase/",
+        icon: "java",
+        prefix: "java/",
         children: [{ text: "Java面试专项", icon: "java", link: "" }],
       },
       {
