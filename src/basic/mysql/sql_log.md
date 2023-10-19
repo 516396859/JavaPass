@@ -1,5 +1,5 @@
 ---
-title: MySQL日志
+title: MySQL 日志
 icon: file
 order: 1
 author: Ms.Cheney

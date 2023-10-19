@@ -1,5 +1,5 @@
 ---
-title: Java集合
+title: Java 集合
 icon: file
 order: 4
 author: Ms.Cheney

@@ -1,5 +1,5 @@
 ---
-title: MySQL索引
+title: MySQL 索引
 icon: file
 order: 1
 author: Ms.Cheney

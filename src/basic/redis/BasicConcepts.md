@@ -1,5 +1,5 @@
 ---
-title: Redis基础
+title: Redis 基础
 icon: file
 order: 1
 author: Ms.Cheney

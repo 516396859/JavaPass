@@ -1,5 +1,5 @@
 ---
-title: MySQL基础
+title: MySQL 基础
 icon: file
 order: 1
 author: Ms.Cheney

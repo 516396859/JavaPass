@@ -1,5 +1,5 @@
 ---
-title: Java专项
+title: Java 专项
 icon: java   #lightbulb /assets/icon/java.svg
 index: false
 ---

@@ -1,5 +1,5 @@
 ---
-title: MySQL专项
+title: MySQL 专项
 icon: mysql #file  #lightbulb
 index: false
 ---
